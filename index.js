@@ -28,7 +28,7 @@ async function run() {
             const result = await usersCollection.insertOne(user)
             console.log(result)
             res.send(result)
-          })
+          }) 
 
           app.put('/users/admin' , async (req, res)=> {
             const user = req.body
@@ -51,7 +51,7 @@ async function run() {
           })
 
 
-
+// 
 
 
 
